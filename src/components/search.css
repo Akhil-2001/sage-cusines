@@ -1,0 +1,31 @@
+.search-item {
+    padding: 15px 30px;
+    margin: 20px 40px;
+    margin-right: 0px;
+    font-size: 20px;
+    border: none;
+    border-width: 0px;
+    appearance: none;
+    box-shadow: 3px 5px  #5e5e5e6e;
+}
+
+.search-container {
+    margin-top: 50px;
+}
+
+.search-button {
+    margin-left: 0px;
+    font-size: 20px;
+    padding: 15px 25px;
+    background-color: #d34343;
+    border: none;
+    color: #ffffff;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 3px 5px  #5e5e5e6e;
+}
+
+.search-button:hover {
+    cursor: pointer;
+    background-color: #fc6060;
+    transition: all 0.2s ease-in-out;
+}

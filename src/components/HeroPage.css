@@ -1,0 +1,46 @@
+
+.container-sage {
+    background: url('../img/sage-template.jpg') center center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 80px;
+    border-bottom: solid 5px #4d4d4d;
+}
+
+.header-sage {
+    border: solid 3px white;
+    padding: 20px 40px;
+    position: static;
+    font-weight: lighter;
+}
+
+.insta {
+    text-decoration: none;
+    font-size: 20px;
+    border: solid 2px #ffffff;
+    padding: 10px 20px;
+    margin: 50px 0px;
+    color: #ffffff;
+    transition: all 0.2s ease-out;
+    font-weight: lighter;
+}
+
+.insta:hover {
+    color: #fc6060;
+    border-color: #fc6060;
+    transition: all 0.2s ease-out;
+}
+
+@media screen and (max-width: 960px)
+{
+    .container-sage {
+        height: 70vh;
+        font-size: 50px;
+    }
+
+}

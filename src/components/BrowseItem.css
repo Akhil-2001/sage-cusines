@@ -1,0 +1,40 @@
+.item-container {
+    height: 7em;
+    width: 7em;
+    border-left: solid 5px #ffffff;
+    border-right: solid 5px #ffffff;
+    border-top: solid 5px #ffffff;
+    border-bottom: solid 45px #ffffff;
+    margin: 0.5em 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 7px  #5e5e5e6e;
+    transition: all 0.2s ease-in-out;
+    font-size: 50px;
+}
+
+.starters {
+    background: url('../img/starters.jpg') center center/cover no-repeat;
+}
+.mainCourse {
+    background: url('../img/maincourse.jpg') center center/cover no-repeat;
+}
+.desserts {
+    background: url('../img/desserts.jpg') center center/cover no-repeat;
+}
+.item-container:hover {
+    height: 7em;
+    width: 7em;
+    transition: all 0.2s ease-in-out;
+    font-size: 55px;
+    box-shadow: 6px 8px  #5e5e5e6e;
+}
+
+.BrowseHead {
+    
+    color: #ffffff;
+    font-size: inherit;
+    font-variant: small-caps;
+}
+

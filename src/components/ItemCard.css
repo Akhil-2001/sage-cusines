@@ -1,0 +1,114 @@
+.itemBox-container{
+    margin: 2.5em 4em;
+    background: #d34343;
+    display: inline-block;
+    justify-items: center;
+    transition: all 0.2s ease-in-out;
+    padding-bottom: 20px;
+    -webkit-box-shadow: 6px 6px 20px 0px rgba(50, 50, 50, 0.63);
+    -moz-box-shadow:    6px 6px 20px 0px rgba(50, 50, 50, 0.63);
+    box-shadow:         6px 6px 20px 0px rgba(50, 50, 50, 0.63);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.ing-container {
+    padding: 25px 40px;
+    color: #000000;
+    font-size: 20px;
+}
+
+.ing-container-1 {
+    padding: 25px 40px;
+    color: #000000;
+    font-size: 20px;
+    overflow-y: scroll;
+    height: 200px;
+}
+
+.ing-container-1::-webkit-scrollbar-track {
+    background: #86d6b7bd
+}
+
+.ing-container-1::-webkit-scrollbar {
+    width: 5px;
+}
+
+.ing-container-1::-webkit-scrollbar-thumb {
+    background: #2caf7dce;
+}
+
+.ing-head {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.item-active {
+    color: #ffffff;
+    background-color: #43d49d;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 0;
+    top: 0px;
+    left: 0;
+    transition: all 0.2s ease-in-out;
+    overflow: hidden;
+}
+
+.container-details {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 30px;
+}
+
+.details-head {
+    margin-top: 50px;
+    margin-right: 80px;
+    font-size: 50px;
+}
+
+.img-box {
+    width: 500px;
+    margin: 50px 50px;
+    border: solid 10px #ffffff;
+    border-radius: 10px;
+}
+
+.ifra {
+    float: right;
+    padding: 15px 15px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.item-inactive {
+    position: absolute;
+    left: -100%;
+    transition: all 0.2s ease-in-out;
+    color: #43d49d;
+    height: 100vh;
+    width: 100%;
+    top: 80px;
+}
+
+.photo img{
+    display: block;
+    height: 18em;
+    width: 24em;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 10px 10px;
+}
+.itemName{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+.itemType{
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+}

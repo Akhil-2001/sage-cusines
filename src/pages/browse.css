@@ -1,0 +1,15 @@
+.bro{
+    background: url('../img/wood3.jpg') center center/cover no-repeat;
+}
+.browseBox{
+    justify-content: center;
+    display:flex;
+    height:100vh;
+    position: relative;
+    top: 50px;
+}
+.searchBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

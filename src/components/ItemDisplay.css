@@ -1,0 +1,18 @@
+.pic img{
+    width:40em;
+    height: 40em;
+    padding: 3em 3em;
+}
+.pic{
+    position: relative;
+    display: inline-block;
+    height:45em;
+    width: 45em;
+}
+.title{
+    position: relative;
+    display: inline-block;
+    height:5em;
+    width: 20em;
+    font-size: 30px;
+}

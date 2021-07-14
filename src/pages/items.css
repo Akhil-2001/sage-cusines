@@ -1,0 +1,6 @@
+.item-page {
+    background: url('../img/wood.jpg') center;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
