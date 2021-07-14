@@ -3,6 +3,8 @@
 An interactive website with rich UI features to showcase and browse food recipes. 
 Built using the MERN stack to enhance reusability of UT components and provide a responsive interface to access detailed food recipes.
 
+https://sage-cuisine.herokuapp.com/
+
 Technology: MERN Stack
 
 <h3>Browse Page</h3>
